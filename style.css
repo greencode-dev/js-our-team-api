@@ -1,0 +1,63 @@
+body {
+  font-family: lucida console, Courier New, monospace, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #e53170;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-paragraph {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-card {
+  display: flex; /* Allinea immagine e testo orizzontalmente */
+  background-color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #fff;
+}
+
+.card-img {
+  width: 100px; /* Larghezza fissa per l'immagine */
+  height: 100px;
+  object-fit: cover; /* Assicura che l'immagine copra lo spazio senza distorsioni */
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.team-card h3 {
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.card-text p:last-child {
+  margin-top: 10px;
+  color: #00bfff;
+}
