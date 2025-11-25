@@ -1,4 +1,4 @@
-# Esercizio: Our Team
+# Esercizio: Our Team + API
 
 **Repo:** `js-our-team-api`
 
